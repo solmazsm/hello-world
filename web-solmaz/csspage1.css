@@ -1,0 +1,77 @@
+#inputrow{
+    font-size :45;
+}
+#name{
+    font-size: 30;   
+   
+    color:white;
+    background-color:green;
+    
+      padding-left: 14px;
+    
+}
+#name1{
+    
+    background-color:royalblue;
+
+}
+#name2{
+     padding-left: 25px;
+    font-size: 30;
+    padding-top: 50;
+    border: 12px;
+    color:darkblue;
+    
+}
+#name3{
+     padding-left: 25px;
+    font-size: 30;
+    padding-top: 50;
+    border: 12px;
+    color:darkblue;
+    
+}
+body{
+    background-color:white;
+    
+}
+.clients {
+  background-color:royalblue;
+  color:white;
+  padding: 12px;
+  font-size: 14px;
+    font-
+  border: none;
+    
+   
+}
+.drop {
+  position: relative;
+  display: inline-block;
+    border-image-width: auto;
+}
+.drop-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 140px;
+  box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.drop-content a {
+  color:cornflowerblue;
+  padding: 12px 12px;
+border-width:thin;
+  text-decoration: none;
+  display: block;
+    border-bottom-style:solid;
+}
+
+
+.drop-content a:hover {background-color:aliceblue;}
+
+/* Show the dropdown menu on hover */
+.drop:hover .drop-content {display: block;}
+
+
+.drop:hover .clients {background-color:cornflowerblue;}

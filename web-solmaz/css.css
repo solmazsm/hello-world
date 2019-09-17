@@ -73,8 +73,8 @@ clear: both;
     border: 20px;
     color:darkslateblue;
      float:left;
-    margin-bottom:inherit;
-        }
+    padding-bottom: 10px;
+            }
 .name2-quote{
         font-size: 20;
     padding-bottom: 20;
@@ -136,10 +136,13 @@ input[type=text]{
     padding-left: 30px;
    width: 500px;
     margin-top: inherit;
-    clear: both;
-
-
-        
+   align-content: center;
+    justify-content: center;
+    clear:both;
+    align-items: stretch;
+    position:relative;
+    
+   
     }
 .box1 {
     background-color:royalblue;
@@ -166,10 +169,10 @@ text-align:start;
     padding-left: 30px;
    width: 200px;
     float: right;
-text-align:start;
+ text-align: center;
+    margin-bottom:inherit;
      justify-content:space-around;
- display:flex;
-    padding: 5px;
+     padding: 5px;
     border-radius: 30px;
     font-size: 22x;
     font-weight: 200;
@@ -178,23 +181,14 @@ text-align:start;
     padding-bottom: 30px;
     display: flex;
     flex-direction: column;
+    clear: both;
     }
 
 .zip{
     float:right;
 
 }
-box > div{
-    background-color: #f2f2f2;
-    padding: 70px;
-    border-radius: 30px;
-    padding-left: 30px;
-   width: 500px;
-    justify-content: center;
- display:flex;
-    
-  justify-content: center;
-}
+
 
  label{
     padding: 15px 15px 15px 0;
@@ -214,7 +208,7 @@ box > div{
     width:25%;
     float: left;
     margin-top: 10px;
-    
+     position: absolute;
 }
 .c1{
     width: 75%;

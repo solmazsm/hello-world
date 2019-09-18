@@ -47,6 +47,13 @@ clear: both;
       margin-top: -20px;
     
            }
+.namedown5{
+background-color:white;
+ width: 100%;
+    height: 30%;
+    clear: both;
+    
+           }
 .us{
     padding-right: 200px;
     font-size: 20;
@@ -159,10 +166,10 @@ textarea {
 .box2{
     background-color:midnightblue;
     color: white;
-    border-radius: 20px;
+    border-radius: 30px;
     padding-left: 5px;
    width: 15%;
-    height: 75%;
+    height: 45%;
      text-align:center;
     margin-bottom:inherit;
      justify-content:space-around;
@@ -194,14 +201,15 @@ textarea {
     padding-left: 30px;
    width: 200px;
     float: right;
-text-align:start;
+text-align:center;
      justify-content:space-around;
  display:flex;
     padding: 5px;
     border-radius: 30px;
       text-align: center;
     margin-bottom:inherit;
-    
+    height: 20%;
+    padding-right: 30px;
  }
 .box1:after {
   content: "";

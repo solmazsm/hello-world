@@ -68,9 +68,9 @@ clear: both;
     padding-top:15;
     border: 12px;
     color:darkblue;
-    position:absolute;
     padding-bottom: 15px;
     text-align: center;
+    
     }
 .name2-contact{
      padding-left: 30px;
@@ -159,7 +159,7 @@ input[type=text]{
     border-radius: 30px;
     padding-left: 30px;
    width: 15%;
-    height: 75%;
+    height: 50%;
      text-align: center;
     margin-bottom:inherit;
      justify-content:space-around;
@@ -174,7 +174,7 @@ input[type=text]{
     flex-direction: column;
     clear: both;
     float: right;
-    
+   
 }
 
 @media screen and (max-width: 600px) {
@@ -239,10 +239,22 @@ clear: both;
      margin-top: 0px;
     clear: both;
 }
-.button {
-  background-color: #f2f2f2;
-  color: darkblue;
+#button {
+  background-color:steelblue;
+  color:white;
   padding: 15px 20px;
   text-align: center;
- font-size: 12px;
+ font-size: 20px;
+ display: inline-block;
+font-weight: 300;
+ padding: .5em;
+ border-radius: 6px;
+  font-family: 'Oswald';
+  text-decoration: none;
+ border: none;
+}
+#button:hover {
+ border: none;
+ background: orange;
+ box-shadow: 0px 0px 1px #777;
 }

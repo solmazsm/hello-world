@@ -82,14 +82,14 @@ background-color:white;
 .name2-contact{
      padding-left: 30px;
     font-size: 25px;
-    padding-top: 10;
-    border: 20px;
+    padding-top:5;
+   padding-bottom: 30px;
     color:darkslateblue;
      float:left;
     position:relative;
     
-    
-   text-align: justify;
+    text-align: justify;
+   text-align
     
     
             }
@@ -207,7 +207,7 @@ text-align:left;
     border-radius: 30px;
       text-align: center;
     margin-bottom:inherit;
-    height: 15%;
+    
     padding-right: 20px;
     padding-top: 21px;
     padding-bottom:21;

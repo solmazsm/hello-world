@@ -146,34 +146,37 @@ input[type=text]{
     color: white;
     border-radius: 30px;  
     padding: 5%;
-    align-items: center;
-    text-align: center;
-     column-count: 2;
+    align-items:flex-start;
+    text-align:left;
+     column-count: 1;
       width:50%;
           
             }
+textarea {
+   resize: none;
+}
 
 .box2{
     background-color:midnightblue;
     color: white;
-    border-radius: 30px;
-    padding-left: 30px;
+    border-radius: 20px;
+    padding-left: 5px;
    width: 15%;
-    height: 50%;
-     text-align: center;
+    height: 75%;
+     text-align:center;
     margin-bottom:inherit;
      justify-content:space-around;
-     padding: 20px;
+     padding: 0px;
     border-radius: 30px;
-    font-size: 22x;
-    font-weight: 200;
-    text-align: center;
+    font-size: 20x;
+    font-weight:100;
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     clear: both;
     float: right;
+    font-family:serif;
    
 }
 

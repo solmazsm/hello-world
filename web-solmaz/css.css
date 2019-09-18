@@ -196,20 +196,21 @@ textarea {
 .box1 {
     background-color:royalblue;
     color: white;
-    padding: 100px;
     border-radius: 30px;
-    padding-left: 30px;
+    padding-left: 20px;
    width: 200px;
     float: right;
-text-align:center;
+text-align:left;
      justify-content:space-around;
  display:flex;
-    padding: 5px;
+    padding: 10px;
     border-radius: 30px;
       text-align: center;
     margin-bottom:inherit;
-    height: 16%;
-    padding-right: 30px;
+    height: 15%;
+    padding-right: 20px;
+    padding-top: 21px;
+    padding-bottom:21;
  }
 .box1:after {
   content: "";

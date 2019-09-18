@@ -13,7 +13,8 @@ background-color:midnightblue;
 background-color:midnightblue;
     font-size: 7px;
     font-size-adjust: auto;
-         height: 180px;
+         height: 100%px;
+    width: 100%;
     margin-bottom: 0px;
     padding-top: 30px;
     padding-left: 50px;
@@ -25,12 +26,10 @@ background-color:midnightblue;
     margin-top: -15;
   text-align:justify;
     margin-top: 20px;
-   position:relative;
-   float:inherit;
+      float:none;
     display:flex;
    justify-content:flex-start;
-  align-items:flex-start;
-  flex-direction: column;
+   flex-direction: column;
         
 }
 .namedown1{
@@ -71,6 +70,7 @@ clear: both;
     color:darkblue;
     position:absolute;
     padding-bottom: 15px;
+    text-align: center;
     }
 .name2-contact{
      padding-left: 30px;
@@ -142,19 +142,47 @@ input[type=text]{
 }
 
 .box {
-   
     background-color:cadetblue;
     color: white;
-    border-radius: 30px;
-     position:inherit;
-    float:inherit;
-    padding: 7%;
+    border-radius: 30px;  
+    padding: 5%;
     align-items: center;
     text-align: center;
-    clear: both;
-     
+     column-count: 2;
+      width:50%;
           
-    }
+            }
+
+.box2{
+    background-color:midnightblue;
+    color: white;
+    border-radius: 30px;
+    padding-left: 30px;
+   width: 15%;
+    height: 75%;
+     text-align: center;
+    margin-bottom:inherit;
+     justify-content:space-around;
+     padding: 20px;
+    border-radius: 30px;
+    font-size: 22x;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    clear: both;
+    float: right;
+    
+}
+
+@media screen and (max-width: 600px) {
+  .box, .box2 {
+    width: 100%;
+  }
+}
+
 .box1 {
     background-color:royalblue;
     color: white;
@@ -172,28 +200,11 @@ text-align:start;
     margin-bottom:inherit;
     
  }
-.box2 {
-    background-color:midnightblue;
-    color: white;
-    padding: 10px;
-    border-radius: 30px;
-    padding-left: 30px;
-   width: 200px;
-    float: right;
- text-align: center;
-    margin-bottom:inherit;
-     justify-content:space-around;
-     padding: 5px;
-    border-radius: 30px;
-    font-size: 22x;
-    font-weight: 200;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    position:relative;
-    }
+.box1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .zip{
     float:right;

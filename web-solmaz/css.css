@@ -14,8 +14,7 @@ background-color:midnightblue;
     font-size: 7px;
     font-size-adjust: auto;
          height: 100%px;
-    width: 100%;
-    margin-bottom: 0px;
+        margin-bottom: 0px;
     padding-top: 30px;
     padding-left: 50px;
     font-weight: 300;
@@ -34,6 +33,7 @@ background-color:midnightblue;
 }
 .namedown1{
 background-color:darkblue;
+    width: 100%;
  font-size: 12;
     height: 100px;
     margin-top: 0px;

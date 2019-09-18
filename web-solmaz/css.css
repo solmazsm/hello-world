@@ -5,6 +5,9 @@
 padding-left: 17px;
 background-color:midnightblue;
  font-size: 25;
+    height: 100px;
+    text-align: left;
+    padding-top: 20px;
            }
 #namedown{
 background-color:midnightblue;
@@ -58,22 +61,29 @@ clear: both;
 }
 #name1{
     background-color:royalblue;
+    margin-top:  -18px;
 }
-#name2{
+.name2{
      padding-left: 25px;
     font-size: 30;
-    padding-top: 50;
+    padding-top:15;
     border: 12px;
     color:darkblue;
+    position:absolute;
+    padding-bottom: 15px;
     }
 .name2-contact{
      padding-left: 30px;
-    font-size: 25;
-    padding-top: 100;
+    font-size: 25px;
+    padding-top: 10;
     border: 20px;
     color:darkslateblue;
      float:left;
-    padding-bottom: 10px;
+    position:relative;
+    padding-bottom: -20px;
+   text-align: justify;
+    
+    
             }
 .name2-quote{
         font-size: 20;
@@ -129,18 +139,20 @@ input[type=text]{
     
 }
 .box {
+    padding-top: 10px;
     background-color:cadetblue;
     color: white;
     padding: 100px;
     border-radius: 30px;
     padding-left: 30px;
-   width: 500px;
+   width: 450px;
     margin-top: inherit;
    align-content: center;
     justify-content: center;
-    clear:both;
+    clear: both;
     align-items: stretch;
     position:relative;
+    
     
    
     }

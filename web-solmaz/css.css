@@ -1,3 +1,7 @@
+table#t {
+  font-size: 20px;   
+  
+}
 .tab{
     margin-left: 4em;
 }
@@ -116,8 +120,11 @@ body{
 .c {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color:orange;
   min-width: 140px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Oswald';
 }
 .c a {
   color:cornflowerblue;

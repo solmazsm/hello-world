@@ -2,7 +2,7 @@ table#t {
   font-size: 20px;   
   }
 th, td {
-  padding: 2%;
+  padding: 1%;
 }
 th {
   text-align:justify-all;
@@ -62,7 +62,7 @@ clear: both;
 .namedown5{
 background-color:white;
  width: 100%;
-    height: 30%;
+    height: 18%;
     clear: both;
     
            }
@@ -122,9 +122,9 @@ body{
   border: none;
 }
 .drop {
-  position:static;
+  
   display: inline-block;
-  border-image-width: auto;
+  position: relative;
   padding-left: 12px;
     color:white;
 }
@@ -145,6 +145,9 @@ body{
   text-decoration: none;
   display: block;
   border-bottom-style:solid;
+     min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 .c a:hover {background-color:coral;}
 .drop:hover .c {display: block;}

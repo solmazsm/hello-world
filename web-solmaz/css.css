@@ -1,3 +1,37 @@
+
+.search {
+  overflow: hidden;
+  background-color:darkorange;
+    padding:0px;
+     width: 50%;
+    float: right;
+    margin-top: 0px;
+    font-size: 0px;
+    text-align: center;
+}
+
+
+.search .scontainer {
+  float: right;
+    padding:0px;
+}
+
+.search input[type=text] {
+   padding: 0px;
+  font-size: 20px;
+  }
+.search .scontainer b {
+  float: right;
+  background-color: bisque;
+  cursor: pointer;
+    font-size: 20;
+    border:none;
+   
+}
+
+.search .scontainer b:hover {
+  background:orange;
+}
 .centerpic{
   display: block;
   margin-left: auto;

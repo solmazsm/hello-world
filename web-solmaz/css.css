@@ -42,11 +42,11 @@
 .centerpiccontact{
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  width:7%;
+  margin-right:auto;
+  width:5%;
     height:auto;
-    float: right;
-    padding-right: 7%
+    float:left;
+    padding-right:5px;
 }
 table#t {
   font-size: 20px;   

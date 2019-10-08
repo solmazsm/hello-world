@@ -329,3 +329,22 @@ font-weight: 300;
  background: orange;
  box-shadow: 0px 0px 1px #777;
 }
+#buttonok {
+  background-color:steelblue;
+  color:white;
+  padding: 15px 20px;
+  text-align: center;
+ font-size: 20px;
+ display: inline-block;
+font-weight: 300;
+ padding: .5em;
+ border-radius: 6px;
+  font-family: 'Oswald';
+  text-decoration: none;
+ border: none;
+}
+#buttonok:hover {
+ border: none;
+ background: orange;
+ box-shadow: 0px 0px 1px #777;
+}
